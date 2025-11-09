@@ -1,0 +1,77 @@
+# ========================
+# Unity.gitignore for Git
+# ========================
+
+# ビルドキャッシュ・テンポラリ
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+
+# パッケージキャッシュ
+[Ll]ibrary/PackageCache/
+
+# Rider, VS, VSCode
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Unity Cloud Diagnostics
+crashlytics-build.properties
+
+# VSCode設定ファイル
+.vscode/
+
+# OSによる不要ファイル
+.DS_Store
+Thumbs.db
+
+# ビルド成果物
+*.apk
+*.aab
+*.unitypackage
+*.exe
+
+# Android/iOSキャッシュ
+.gradle/
+*.apk
+*.aab
+*.keystore
+*.jks
+*.dex
+*.so
+
+# Git管理しない個人情報や鍵など
+*.key
+*.pem
+*.pfx
+
+# Gitのサブモジュールとかの一時キャッシュ
+.gitmodules/
+*.orig
+
+# JetBrains Rider 用
+.idea/
+
+# Test result logs
+*.xml
+*.html
+*.coverage
+*.cov
+
+# その他
+*.log
